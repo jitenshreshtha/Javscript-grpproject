@@ -1,0 +1,91 @@
+[
+  {
+    "id":1,
+    "title":"Phone",
+    "image":"../Assets/Images/Phonecategory.jpeg",
+    "products":[{
+      "title": "Acer Aspire 3",
+        "description": "This product is inspected, tested, and refurbished, as necessary to be fully functional according to Amazon Renewed standards.",
+        "price": 1000,
+        "img": "/assets/laptop/41nocYvNJVL._AC_UL960_FMwebp_QL65_.webp",
+        "discount": 100,
+        "isInStock": true,
+        "tags": ["laptop", "acer", "3","Aspire"]
+    },
+    {
+      "title": "Dell Laptop 15.6 Full HD Display | AMD Ryzen 7 5700U CPU | 16GB DDR4 | 1TB SSD | Windows 11 Home (1 Yr Manufacturer Warranty)",
+      "description": "This product is inspected, tested, and refurbished, as necessary to be fully functional according to Amazon Renewed standards.",
+      "price": 700,
+      "img": "/assets/laptop/51lR5NB9j-L._AC_UL960_FMwebp_QL65_.webp",
+      "discount": 50,
+      "isInStock": false,
+      "tags": ["laptop", "dell", "15.6", "Full HD"]
+    },
+    {
+      "title": "Lenovo Laptop 15.6 Full HD Display | AMD Ryzen 7 5700U CPU | 16GB DDR4 | 1TB SSD | Windows 11 Home (1 Yr Manufacturer Warranty)",
+      "description": "This product is inspected, tested, and refurbished, as necessary to be fully functional according to Amazon Renewed standards.",
+      "price": 800,
+      "img": "/assets/laptop/51NuxGz8sQL._AC_UL960_FMwebp_QL65_.webp",
+      "discount": 30,
+      "isInStock": true,
+      "tags": ["laptop", "lenovo", "15.6", "Full HD"]
+    },
+    {
+      "title": "Mac book pro | AMD Ryzen 7 5700U CPU | 16GB DDR4 | 1TB SSD | Windows 11 Home (1 Yr Manufacturer Warranty)",
+      "description": "This product is inspected, tested, and refurbished, as necessary to be fully functional according to Amazon Renewed standards.",
+      "price": 900,
+      "img": "/assets/laptop/61tGIRjhumL._AC_UL960_FMwebp_QL65_.webp",
+      "discount": 200,
+      "isInStock": true,
+      "tags": ["laptop", "mac book pro"]
+    },
+    {
+      "title": "Acer 2 | AMD Ryzen 7 5700U CPU | 16GB DDR4 | 1TB SSD | Windows 11 Home (1 Yr Manufacturer Warranty)",
+      "description": "This product is inspected, tested, and refurbished, as necessary to be fully functional according to Amazon Renewed standards.",
+      "price": 750,
+      "img": "/assets/laptop/71yYWYCHVdL._AC_UL960_FMwebp_QL65_.webp",
+      "discount": 60,
+      "isInStock": false,
+      "tags": ["laptop", "acer", "Ryzen 7"]
+    },
+    {
+      "title": "Acer 2 | Chrome os 5700U CPU | 16GB DDR4 | 1TB SSD | Windows 11 Home (1 Yr Manufacturer Warranty)",
+      "description": "This product is inspected, tested, and refurbished, as necessary to be fully functional according to Amazon Renewed standards.",
+      "price": 650,
+      "img": "/assets/laptop/713cruyVhoL._AC_UL960_FMwebp_QL65_.webp",
+      "discount": 90,
+      "isInStock": true,
+      "tags": ["laptop", "acer", "chrome os"]
+    },
+    {
+      "title": "Lenovo Laptop 15.6 Full HD Display | Think pad 5700U CPU | 16GB DDR4 | 1TB SSD | Windows 11 Home (1 Yr Manufacturer Warranty)",
+      "description": "This product is inspected, tested, and refurbished, as necessary to be fully functional according to Amazon Renewed standards.",
+      "price": 800,
+      "img": "/assets/laptop/5119Kog5+qL._AC_UL960_FMwebp_QL65_.webp",
+      "discount": 300,
+      "isInStock": true,
+      "tags": ["laptop", "lenovo", "think pad"]
+    }
+  ]
+  },
+  {
+    "id": 2,
+    "title":"Headphones",
+    "image":"../Assets/Images/Headphones.jpeg"
+  },
+  {
+    "id":3,
+    "title":"Laptops",
+    "image":"../Assets/Images/Laptops.jpeg"
+  },
+  {
+    "id":4,
+    "title":"Monitors",
+    "image":"../Assets/Images/Monitors.jpeg"
+  },
+  {
+    "id":5,
+    "title":"Home Appliances",
+    "image":"../Assets/Images/Homeappliances.jpeg"
+  }
+]
