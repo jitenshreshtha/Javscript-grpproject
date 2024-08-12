@@ -1,0 +1,61 @@
+// HTML
+<div class="slider">
+  <div class="slides">
+    <img src="image1.jpg" alt="Image 1">
+    <img src="image2.jpg" alt="Image 2">
+    <img src="image3.jpg" alt="Image 3">
+    <img src="image4.jpg" alt="Image 4">
+  </div>
+</div>
+
+// CSS
+.slider {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  margin: 20px auto;
+}
+
+.slides {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slides img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.slides img.active {
+  display: block;
+}
+
+// JavaScript
+```javascript
+$(document).ready(function() {
+  var slider = $('.slider');
+  var slides = slider.find('.slides img');
+  var currentSlide = 0;
+
+  slides.eq(0).addClass('active');
+
+  setInterval(function() {
+    slides.eq(currentSlide).removeClass('active');
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides.eq(currentSlide).addClass('active');
+  }, 5000); // change slide every 5 seconds
+
+  // Animation
+  slides.on('transitionend', function() {
+    $(this).removeClass('transition');
+  });
+
+  slides.eq(currentSlide).addClass('transition');
+});
